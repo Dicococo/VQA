@@ -8,8 +8,10 @@ numpy==1.16.5 <br>
 tqdm==4.35.0 <br>
 
 ### 训练数据下载
-首先通过tools文件中，使用download.sh下载数据文件，通过process.sh对文件进行处理
-你可以
+首先通过tools文件中，使用download.sh下载数据文件，通过process.sh对文件进行处理<br>
+
+你可以<br>
+
 ```
 bash tools/download.sh
 ```
