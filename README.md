@@ -44,17 +44,16 @@ loss_functions.py 损失函数类<br>
 ### 训练
 ```
 CUDA_VISIBLE_DEVICES=1 nohup python train.py > train.out &
-```
+
 nohup python train.py  --load_weight='output/batch_128_39.pth' --had_trained_epoch=40 > v3_lr=0.002_add.out &
 ```
 
 训练一个模型
-
 ### 测试
 
 ```
 CUDA_VISIBLE_DEVICES=1 nohup python eval.py > test.out &
-```
+
 nohup python test.py  --load_weight='output/batch_128_39.pth' --had_trained_epoch=40 > v3_lr=0.002_add.out &
 ```
 评估模型
