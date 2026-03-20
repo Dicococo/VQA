@@ -47,7 +47,7 @@ bash tools/process.sh
 处理数据
 
 
-阅读文献自底向和自顶向注意力在图像字幕和视觉问答中的应用<br>
+阅读文献《Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering》<br>
 了解模型结构，并下载论文原代码，理清原论文模型架构并复现原论文。<br>
 之后阅读改代码即可。<br>
 
